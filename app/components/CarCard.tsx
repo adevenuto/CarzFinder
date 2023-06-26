@@ -33,6 +33,10 @@ export default function CarCard({car}: CarCardProps) {
                     /day
                 </span>
             </div>
+
+            <div className="relative object-contain w-full h-40 my-3">
+                <Image src={'/hero.png'}  alt="car image" fill priority/>
+            </div>
         </div>
     )
 }
