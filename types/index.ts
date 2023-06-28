@@ -5,6 +5,9 @@ export interface btnStylesProps {
     btnStyles?: string;
     btnType?: "button" | "submit";
     handleClick?: MouseEventHandler<HTMLButtonElement>
+    titleStyles?: string;
+    rightIcon?: string;
+    isDisabled?: boolean;
 }
 
 export interface SearchManufacturerProps {
